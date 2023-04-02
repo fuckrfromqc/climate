@@ -1,0 +1,127 @@
+/* Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #004b8d;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f5f5f5;
+}
+
+/* Main Content Styles */
+main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+main p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Index Page Styles */
+.index-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.index-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.index-card h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.index-card p {
+  margin-bottom: 0;
+}
+
+.index-card a {
+  display: block;
+  margin-top: 20px;
+  background-color: #003366;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.index-card a:hover {
+  background-color: #004b8d;
+}
+
+/* About Page Styles */
+.about-content {
+  margin-top: 40px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 20px;
+  line-height: 1.6;
+}
